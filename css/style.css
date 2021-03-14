@@ -18,6 +18,12 @@ body {
     margin: 0 auto;
 }
 
+.container-2 {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -156,12 +162,47 @@ body {
     align-items: center;
 }
 
-.loyality{
+.products-item-cart {
+    width: 360px;
+}
+
+.cart-wrapper {
     position: relative;
-    width: 640px;
+}
+
+.products-item-header {
+    margin-bottom: 13px;
+}
+
+.products-image {
+    display: block;
+}
+
+.products-text {
+    background: #F8F8F8;
+    padding: 25px 29px 20px 19px;
+}
+
+.products-item-description {
+    margin-bottom: 18px;
+}
+
+.brand-wrapper {
+    position: relative;
     min-height: 600px;
-    position: relative;
-    margin: 40px 0 0 50px;
+}
+
+.contacts-content-form {
+    position: absolute;
+    margin: 90px 0 0 230px;
+}
+
+.loyality {
+    position: absolute;
+    width: 540px;
+    min-height: 300px;
+    margin: 80px 0 0 750px;
+    font-size: 24px;
 }
 
 .loyality-header1 {
@@ -217,6 +258,52 @@ body {
     color: #000000;
 }
 
+.advantages {
+    position: relative;
+    min-height: 341px;
+    background-color: #222224;
+}
+
+.advantages-container {
+    display: flex;
+    position: absolute;
+    margin: 100px 0 0 280px;
+    color: white;
+}
+
+.advantages-block {
+    margin-right: 50px;
+    width: 310px;
+    height: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.advantages-image-1 {
+    left: 90px;
+    padding-bottom: 28px;
+}
+
+.advantages-image-2 {
+    left: 90px;
+    padding-bottom: 20px;
+}
+
+.advantages-image-3 {
+    left: 90px;
+    padding-bottom: 25px;
+}
+
+.advantages-header {
+    padding-bottom: 16px;
+}
+
 .subscribe {
     min-height: 440px;
     background-image: url(../img/subscribe.png);
@@ -246,10 +333,10 @@ body {
 
 .subscribe-form {
     position: absolute;
-    margin: 155px 0 0 917px;
+    margin: 155px 0 0 1017px;
 }
 
-footer{
+footer {
     min-height: 79px;
     background-color: black;
     position: relative;
@@ -268,5 +355,36 @@ footer{
 
 .footer-pictures {
     position: absolute;
-    margin: 32px 0 0 1233px;
+    margin: 22px 0 0 1153px;
+}
+
+.product-card {
+    min-height: 777px;
+}
+
+.product-details {
+    min-height: 601px;
+}
+
+.product-content {
+    margin: 0 0 0 520px;
+    width: 555px;
+    text-align: center;
+}
+
+.registration {
+    position: relative;
+    min-height: 148px;
+    background: #F8F3F4;
+}
+
+.registration-header {
+    position: absolute;
+    margin: 59px 0 0 230px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
 }
