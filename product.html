@@ -13,73 +13,84 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__wrapper">
-                <div class="header__contorls">
-                    <img class="header__logo" src="./img/logo.svg" alt="logo" width="44" height="38">
-                    <img src="./img/loupe.svg" alt="loupe" width="26" height="27">
-                </div>
-                <div class="header__contorls">
-                    <button class="header__button">
-                        <img src="./img/form1.png" alt="loupe" width="26" height="27">
-                    </button>
-                    <a class="header__person-link" href="./contacts.html"><img src="./img/form2.png" alt="loupe"
-                            width="26" height="27"></a>
-                    <a href="#"><img src="./img/form3.png" alt="loupe" width="26" height="27"></a>
+    <div class="container-2">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__contorls">
+                        <img class="header__logo" src="./img/logo.svg" alt="logo" width="44" height="38">
+                        <img src="./img/loupe.svg" alt="loupe" width="26" height="27">
+                    </div>
+                    <div class="header__contorls">
+                        <button class="header__button">
+                            <img src="./img/form1.png" alt="loupe" width="26" height="27">
+                        </button>
+                        <a class="header__person-link" href="./contacts.html"><img src="./img/form2.png" alt="loupe"
+                                width="26" height="27"></a>
+                        <a href="./cart.html"><img src="./img/form3.png" alt="loupe" width="26" height="27"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <nav class="header__navigation">
-            menu
-            <ul>
-                <li>
-                    <h2>man</h2>
-                    <ul>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>woman</h2>
-                    <ul>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>kids</h2>
-                    <ul>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
+            <nav class="header__navigation">
+                menu
+                <ul>
+                    <li>
+                        <h2>man</h2>
+                        <ul>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>woman</h2>
+                        <ul>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>kids</h2>
+                        <ul>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <main>
         <div class="container-2">
+            <section class="product-arrivals">
+                NEW ARRIVALS
+            </section>
             <section class="product-card">
                 <img src="./img/product-image.png" alt="product" wudth="1600" height="777">
+                <div class="product-left"></div>
+                <div class="product-right"></div>
             </section>
             <section class="product-details">
                 <div class="product-content">
-                    <h1>WOMEN COLLECTION</h1>
-                    <h3>MOSCHINO CHEAP AND CHIC</h3>
-                    <p>Compellingly actualize fully researched processes before proactive outsourcing.
-                        Progressively syndicate collaborative architectures before cutting-edge services. Completely
-                        visualize parallel core competencies rather than exceptional portals.</p>
-                    <p>$561</p>
+                    <h2 class="product-text-1">WOMEN COLLECTION</h1>
+                        <h2 class="product-text-2">MOSCHINO CHEAP AND CHIC</h3>
+                            <p class="product-text-3">Compellingly actualize fully researched processes before proactive
+                                outsourcing.
+                                Progressively syndicate collaborative architectures before cutting-edge services.
+                                Completely
+                                visualize parallel core competencies rather than exceptional portals.</p>
+                            <p class="product-text-4">$561</p>
+                            <p class="product-text-5">CHOOSE COLOR CHOOSE SIZE QUANTITY</p>
+                            <p class="product-text-6">Add to Cart</p>
                 </div>
             </section>
         </div>
-        <div class="container-2">
+        <div class="container-4">
             <section class="products container">
                 <ul class="products__list">
                     <li class="products__item">
@@ -140,25 +151,29 @@
                     “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
                 </div>
                 <div class="subscribe-form">
-                    <h1 class="subcribe-header1">SUBSCRIBE</h1>
-                    <h2 class="subcribe-header2">FOR OUR NEWLETTER AND PROMOTION</h2>
-                    <input class="entryfield" type="email" placeholder="Enter Your Email"><br>
+                    <h2 class="subscribe-header1">SUBSCRIBE</h1>
+                        <h2 class="subscribe-header2">FOR OUR NEWLETTER AND PROMOTION</h2>
+                        <div class="subscribe-input">
+                            <input class="subscribe-entryfield" type="email" placeholder="Enter Your Email"><br>
+                            <button class="subscribe-button" type="submit">Subscribe</button>
+                        </div>
                 </div>
+
             </section>
         </div>
     </main>
-    <div class="container-2">
-    <footer>
-        <div class="footer-text">
-            © 2021 Brand All Rights Reserved.
-        </div>
-        <div class="footer-pictures">
-            <img src="./img/instagramm.png" alt="">
-            <img src="./img/facebook.png" alt="">
-            <img src="./img/pinterest.png" alt="">
-            <img src="./img/twitter.png" alt="">
-        </div>
-    </footer>
+    <div class="container-5">
+        <footer>
+            <div class="footer-text">
+                © 2021 Brand All Rights Reserved.
+            </div>
+            <div class="footer-pictures">
+                <img src="./img/instagramm.png" alt="">
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/pinterest.png" alt="">
+                <img src="./img/twitter.png" alt="">
+            </div>
+        </footer>
     </div>
 </body>
 

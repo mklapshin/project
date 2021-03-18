@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div class="container-2">
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -26,7 +27,7 @@
                     </button>
                     <a class="header__person-link" href="#"><img src="./img/form2.png" alt="loupe" width="26"
                             height="27"></a>
-                    <a href="#"><img src="./img/form3.png" alt="loupe" width="26" height="27"></a>
+                    <a href="./cart.html"><img src="./img/form3.png" alt="loupe" width="26" height="27"></a>
                 </div>
             </div>
         </div>
@@ -63,6 +64,7 @@
             </ul>
         </nav>
     </header>
+    </div>
     <main>
         <div class="container-2">
             <section class="registration">
@@ -71,17 +73,22 @@
             <section class="brand">
                 <div class="brand-wrapper">
                     <div class="contacts-content-form">
-                        <h4 class="contacts-form-header4">SEND US MESSAGE</h4>
-                        <p class="contacts-form-paragraph">Your Name </p>
-                        <input class="entryfield" type="text" placeholder="First name"><br>
-                        <input class="entryfield" type="text" placeholder="Last name"><br>
+                        <p class="contacts-form-paragraph1">Your Name </p>
+                        <input class="entryfield1" type="text" placeholder="First name" width="358" height="44"><br>
+                        <input class="entryfield2" type="text" placeholder="Last name"><br>
+                        <div class="radio-box">
+                            <input type="radio" id="contactChoice1" name="contact" value="email">
+                            <label for="contactChoice1">Male</label>
+                            <input type="radio" id="contactChoice2" name="contact" value="email">
+                            <label for="contactChoice2">Female</label>
+                        </div>
                         <p class="contacts-form-paragraph">Login Details</p>
-                        <input class="entryfield" type="email" placeholder="Email"><br>
-                        <input class="entryfield" type="email" placeholder="Password"><br>
-                        <p class="contacts-form-paragraph">Please use 8 or more characters, with at least 1 number and a
+                        <input class="entryfield1" type="email" placeholder="Email"><br>
+                        <input class="entryfield2" type="email" placeholder="Password"><br>
+                        <p class="contacts-form-paragraph3">Please use 8 or more characters, with at least 1 number and a
                             mixture of uppercase and lowercase letters</p>
                         <br>
-                        <button class="form" type="submit">JOIN NOW</button>
+                        <button class="contacts-form-button" type="submit">JOIN NOW<img src="./img/button-str.png" alt="">  </button>
                     </div>
                     <div class="loyality">
 
@@ -109,9 +116,12 @@
                     “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
                 </div>
                 <div class="subscribe-form">
-                    <h1 class="subcribe-header1">SUBSCRIBE</h1>
-                    <h2 class="subcribe-header2">FOR OUR NEWLETTER AND PROMOTION</h2>
-                    <input class="entryfield" type="email" placeholder="Enter Your Email"><br>
+                    <h2 class="subscribe-header1">SUBSCRIBE</h1>
+                        <h2 class="subscribe-header2">FOR OUR NEWLETTER AND PROMOTION</h2>
+                        <div class="subscribe-input">
+                            <input class="subscribe-entryfield" type="email" placeholder="Enter Your Email"><br>
+                            <button class="subscribe-button" type="submit">Subscribe</button>
+                        </div>
                 </div>
 
             </section>
