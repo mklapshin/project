@@ -177,6 +177,15 @@ body {
     width: 360px;
 }
 
+.products-item-price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
 .cart-wrapper {
     position: relative;
 }
@@ -189,6 +198,16 @@ body {
     margin-bottom: 13px;
 }
 
+.cart-wrapper:before {
+    content: '';
+    width: 100%;
+    min-height: 419px;
+    background: rgba(58, 56, 56, 0.86);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
 .products-image {
     display: block;
 }
@@ -197,6 +216,31 @@ body {
     background: #F8F8F8;
     padding: 25px 29px 20px 19px;
 }
+
+.products-button {
+    position: absolute;
+    width: 138px;
+    min-height: 43px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 1px solid #FFFFFF;
+    background: rgba(58, 56, 56, 0.86);
+    opacity: 0.8;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.products-item-cart:hover .cart-wrapper:before,
+.cart-wrapper:hover .products-button {
+    display: block;
+}
+
 
 .products-item-description {
     margin-bottom: 18px;
@@ -319,7 +363,35 @@ body {
     color: white;
 }
 
-.advantages-block {
+.advantages-block-1 {
+    margin-right: 50px;
+    width: 310px;
+    height: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.advantages-block-2 {
+    margin-right: 50px;
+    width: 310px;
+    height: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.advantages-block-3 {
     margin-right: 50px;
     width: 310px;
     height: 100px;
@@ -406,8 +478,15 @@ footer {
     margin: 22px 0 0 1153px;
 }
 
+.product-arrivals {
+    min-height: 148px;
+    background: #F8F3F4;
+    position: relative;
+}
+
 .product-card {
     min-height: 777px;
+    position: relative;
 }
 
 .product-details {
@@ -416,12 +495,108 @@ footer {
     min-height: 601px;
     width: 1200px;
     background-color: #fff;
+    border: 1px solid #EAEAEA;
 }
 
 .product-content {
-    margin: 0 0 0 520px;
-    width: 555px;
+    margin: 0 0 0 275px;
+    width: 549px;
     text-align: center;
+}
+
+.product-left {
+    position: absolute;
+    width: 47px;
+    min-height: 47px;
+    margin: -400px 0 0 0;
+    background-image: url(../img/produkt_strelka_left.png);
+}
+
+.product-right {
+    position: absolute;
+    width: 47px;
+    min-height: 47px;
+    margin: -400px 0 0 1553px;
+    background-image: url(../img/produkt_strelka_right.png);
+}
+
+.product-text-1 {
+    margin-top: 65px;
+    margin-bottom: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.product-image-1 {
+    margin-bottom: 12px;
+}
+
+.product-text-2 {
+    margin-bottom: 48px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.product-text-3 {
+    margin-bottom: 32px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+
+}
+
+.product-text-4 {
+    margin-bottom: 130px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
+
+.product-text-5 {
+    margin-bottom: 49px;
+}
+
+.product-text-5-1 {
+    display: inline-block;
+    margin-left: 23px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.product-image-2 {
+    display: inline-block;
+}
+
+.product-text-6 {
+    width: 211px;
+    min-height: 47px;
+    border: 1px solid #FF6A6A;
+    background: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
 }
 
 .registration {
@@ -444,7 +619,8 @@ footer {
 .container-4 {
     width: 1600px;
     margin: 0 auto;
-    top: 400px;
+    min-height: 1155px;
+    top: 500px;
     position: relative;
 }
 
@@ -650,6 +826,191 @@ footer {
     margin-bottom: 39px;
 }
 
+.form-button {
+    width: 700px;
+    margin-top: 72px;
+}
+
+.button-form-1 {
+    width: 235px;
+    min-height: 50px;
+    background: #FFFFFF;
+}
+
+.button-form-2 {
+    width: 225px;
+    min-height: 50px;
+    margin-left: 192px;
+    background: #FFFFFF;
+}
+
+.button-form-3 {
+    width: 100px;
+    min-height: 34px;
+    margin-top: 24px;
+    background: #FFFFFF;
+}
+
+.cart-3 {
+    width: 360px;
+    min-height: 214px;
+    background: #F5F3F3;
+    margin-top: 58px;
+    position: relative;
+}
+
+.button-form-4 {
+    position: absolute;
+    margin: 122px 0 0 44px;
+    width: 273px;
+    min-height: 50px;
+    background: #F16D7F;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.cart3-paragraph1 {
+    position: absolute;
+    margin: 39px 0 0 218px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.cart3-paragraph2 {
+    position: absolute;
+    margin: 39px 0 0 300px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.cart3-paragraph3 {
+    position: absolute;
+    margin: 64px 0 0 153px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.cart3-paragraph4 {
+    position: absolute;
+    margin: 64px 0 0 290px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.subscribe-header1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-header2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-input {
+    position: relative;
+    margin-top: 41px;
+    margin-left: 30px;
+}
+
+.subscribe-entryfield {
+    width: 372px;
+    min-height: 49px;
+    background: #E1E1E1;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.subscribe-button {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 300px;
+    min-height: 49px;
+    width: 100px;
+    border: none;
+    background: #F16D7F;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0 10px 10px 0;
+}
+
+.header-button-menu {
+    position: absolute;
+    width: 232px;
+    min-height: 764px;
+    top: 54.6%;
+    left: 92.8%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: none;
+    background: white;
+    opacity: 0.8;
+    color: black;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.header-button-menu-text1 {
+    margin-top: 37px;
+    margin-left: 34px;
+}
+
+.header-button-menu-text2 {
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+.header-button-menu-text3 {
+    margin-top: 11px;
+    margin-left: 55px;
+}
+
+.header__button:hover .header-button-menu {
+    display: block;
+}
+
 @media (max-width: 600px) {
     .container {
         width: 91%;
@@ -658,6 +1019,103 @@ footer {
 
     .image-man {
         display: none;
+    }
+
+    .advantages {
+        min-height: 610px;
+    }
+
+    .advantages-container {
+        position: relative;
+    }
+
+    .advantages-block-1 {
+        position: absolute;
+        margin: 48px 0 0 -200px;
+    }
+
+    .advantages-block-2 {
+        position: absolute;
+        margin: 224px 0 0 -200px;
+    }
+
+    .advantages-block-3 {
+        position: absolute;
+        margin: 400px 0 0 -200px;
+    }
+
+    .subscribe {
+        min-height: 550px;
+        position: relative;
+        background-image: url(../img/subscribe-2.png);
+    }
+
+    .subscribe-photo {
+        position: absolute;
+        margin: 54px 0 0 189px;
+    }
+
+    .subscribe-text {
+        position: absolute;
+        margin: 185px 0 0 57px;
+    }
+
+    .subscribe-form {
+        position: absolute;
+        margin: 317px 0 0 0;
+    }
+
+    .container-2 {
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .container-4 {
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .product-card {
+        min-height: 400px;
+        background-image: url(../img/product-image2.png);
+    }
+
+    .product-details {
+        margin: 0 0 0 -400px;
+    }
+
+    .cart {
+        position: relative;
+        min-height: 1250px;
+    }
+
+    .cart-loyality {
+        position: absolute;
+        margin: 39px 0 0 9px;
+    }
+
+    .cart-1 {
+        width: 350px;
+        height: 188px;
+    }
+
+    .cart-2 {
+        width: 350px;
+        height: 188px;
+    }
+
+    .cart-1-image {
+        width: 150px;
+        height: 188px;
+    }
+
+    .cart-content-form {
+        position: absolute;
+        margin: 700px 0 0 0;
+    }
+
+    .cart-1-info {
+        margin: -1px 0 0 0;
     }
 
 }
