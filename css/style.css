@@ -1118,4 +1118,53 @@ footer {
         margin: -1px 0 0 0;
     }
 
+    .brand {
+        min-height: 1275px;
+    }
+
+    .contacts-content-form {
+        position: absolute;
+        margin: 90px 0 0 20px;
+    }
+
+    .loyality {
+        position: absolute;
+        margin: 800px 0 0 0;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .products-block {
+        max-width: 300px;
+    }
+
+    .products-block2 {
+        display: none;
+    }
+
+    .products-block3 {
+        display: none;
+    }
+
+    .products-block4 {
+        display: none;
+    }
+
+    footer {
+        min-height: 143px;
+    }
+
+    .footer-pictures {
+        position: absolute;
+        margin: 51px 0 0 155px;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin: 100px 0 0 92px;
+    }
 }
